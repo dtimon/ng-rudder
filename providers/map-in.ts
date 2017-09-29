@@ -8,11 +8,10 @@ export class MapIn {
 
     constructor(public format: Format) {
         console.log("Contructor del Mapin");
-        format.toNumber();
-     }
-
+    }
+    
     transform() {
-
+        this.format.toNumber();
         console.log("Llegamos a trasnformar con estos formatos");
     }
 
