@@ -5,12 +5,16 @@ import { Injectable } from '@angular/core';
 export class Format {
 
     constructor() {
-        console.log("Contructor del Format");
+        console.log("Constructor del Format Original");
      }
 
-    toNumber() {
-
+    toNumber(value, options) {
         console.log("To Number original");
+        return value;
+    }
+
+    toStandardDate(value, options) {
+        console.log("To StandardDate");
     }
 
 }

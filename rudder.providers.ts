@@ -1,3 +1,4 @@
 
 export { Format } from './providers/format';
-export { MapIn } from './providers/map-in';
+export { Logic } from './providers/logic';
+export { Mapping } from './providers/mapping';
