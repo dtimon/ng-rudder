@@ -5,9 +5,13 @@ import { CommonModule } from '@angular/common';
 import { RudderConfig } from './interfaces/rudder-config';
 import { Format, Logic, Mapping } from './rudder.providers';
 
-// https://coryrylan.com/blog/angular-tips-dynamic-module-imports-with-the-angular-cli
-
-//t
+/**
+ * Modulo de patrón de diseño que permite generar/modificar lógica de negocio de forma ágil.
+ * Perjudica el rendimiento y mejora el mantenimiento en equipo grande de personas.
+ * 
+ * @export
+ * @class RudderModule
+ */
 @NgModule({
     declarations: [],
     imports: [
